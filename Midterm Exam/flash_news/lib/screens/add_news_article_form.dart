@@ -28,6 +28,6 @@ class _AddNewsArticleFormState extends ConsumerState<AddNewsArticleForm> {
 
   @override
   Widget build(BuildContext context) {
-    return const Text("The form goes here");
+    return AddNewsArticleForm();
   }
 }
