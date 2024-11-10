@@ -68,9 +68,7 @@ class ArticleScreenState extends ConsumerState<ArticleScreen> {
           child: FloatingActionButton(
               onPressed: () {
                 context.pushNamed(AppRouter.newNews.name);
-                setState((){
-                  ref.watch(articleNotifierProvider.notifier).addArticle(article!);
-                });
+                 
               },
               child:Icon(Icons.add)
           )
